@@ -77,3 +77,4 @@ celerybeat-schedule
 
 # coverage
 htmlcov/
+build/

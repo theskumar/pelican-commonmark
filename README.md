@@ -11,7 +11,7 @@ use the extensions available to the python markdown parser.
 
 ## Installation
 
-    pip install -r https://github.com/theskumar/pelican-commonmark/tree/master.zip
+    pip install pelican-commonmark
 
 Add/update the `PLUGINS` variable in your `pelicanconf.py`:
 
@@ -23,7 +23,7 @@ PLUGINS = [
 ]
 ```
 
-# LICENSE
+## LICENSE
 
 BSD
 
