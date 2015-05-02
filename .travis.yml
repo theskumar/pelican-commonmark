@@ -1,0 +1,14 @@
+language: python
+sudo: false
+python:
+  - "3.3"
+  - "2.7"
+
+install: pip install -r requirements.txt
+
+script:
+- flake8
+- coverage run --source pelican_commonmark -m py.test -v
+
+# report coverage to coveralls.io
+after_success: coveralls

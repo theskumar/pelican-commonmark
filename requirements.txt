@@ -1,0 +1,15 @@
+pelican>=3.5.0
+CommonMark>=0.5.4
+
+# Testing
+# -------------------------------------
+coverage
+coveralls
+flake8==2.4.0
+tox>=1.7.0
+git+git://github.com/mverteuil/pytest-ipdb.git
+
+# Debugging
+# -------------------------------------
+ipython==3.1.0
+ipdb==0.8
