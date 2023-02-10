@@ -11,5 +11,5 @@ git+git://github.com/mverteuil/pytest-ipdb.git
 
 # Debugging
 # -------------------------------------
-ipython==7.16.3
+ipython==8.10.0
 ipdb==0.8
